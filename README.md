@@ -16,6 +16,8 @@ app has sessions and money movement operations.
 First run 
 pip install -r requirements.txt from the app's directory in CMD.
 and then run python app.py
-
+ 
+use emails those are registered on the app i.e. the mail used for signup should be used for transactions.
+only those emails will work otherwise you will not be able to perform operations.
 * assuming you've python installed in your system 
  also it has a procfile for heroku deployment.
