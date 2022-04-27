@@ -1,0 +1,24 @@
+{% extends 'home.html' %}
+
+{% block content %}
+    <h1>{% block title %} request Money {% endblock %}</h1>
+    <form method="post">
+        <label for="req_mail">request from</label>
+        <br>
+        <input type="email" name="req_mail"
+               placeholder="enter Reciever's mail"></input><br>
+        <label for="title">money amount</label>
+        <br>
+        <input type="text" name="money"
+               placeholder="enter amount"></input><br>
+        <label for="currency">Currency</label>
+        <br>
+        <input type="text" name="currency"
+               placeholder="Currency"></input>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+   
+    
+{% endblock %}

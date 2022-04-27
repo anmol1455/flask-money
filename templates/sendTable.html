@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="col-md-8">
+        <h3>Welcome, {{title}}</h3>
+    </div>
+    <h3>All TRANSACTIONS</h3>
+    <h4>SENT MONEY DATA</h4>
+<table style="border: 1px solid black;">
+    <thead>
+    <tr>
+        <th style="border: 1px solid black;">ID</th>
+        <th style="border: 1px solid black;">Sender_email</th>
+        <th style="border: 1px solid black;">Amount</th>
+        <th style="border: 1px solid black;">Time Modified</th>
+    </tr>
+    </thead>
+    <tbody>
+        {% for row in data %} 
+            <tr>
+                <td style="border: 1px solid black;">{{row[0]}}</td>
+                <td style="border: 1px solid black;">{{row[1]}}</td>
+                <td style="border: 1px solid black;">{{row[3]}}</td>
+                <td style="border: 1px solid black;">{{row[4]}}</td>
+            </tr>
+        {% endfor %}        
+    </tbody>
+    
+</table>
+<h4>RECIEVED MONEY DATA</h4>
+<table style="border: 1px solid black;">
+    <thead>
+    <tr>
+        <th style="border: 1px solid black;">ID</th>
+        <th style="border: 1px solid black;">Recieved From</th>
+        <th style="border: 1px solid black;">Sent by</th>
+        <th style="border: 1px solid black;">Amount</th>
+        <th style="border: 1px solid black;">Time Modified</th>
+    </tr>
+    </thead>
+    <tbody>
+        {% for row in data1 %} 
+            <tr>
+                <td style="border: 1px solid black;">{{row[0]}}</td>
+                <td style="border: 1px solid black;">{{row[1]}}</td>
+                <td style="border: 1px solid black;">{{row[2]}}</td>
+                <td style="border: 1px solid black;">{{row[3]}}</td>
+                <td style="border: 1px solid black;">{{row[4]}}</td>
+            </tr>
+        {% endfor %}        
+    </tbody>
+    
+</table>
