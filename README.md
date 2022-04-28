@@ -19,3 +19,5 @@ and then run python app.py
 
 * assuming you've python installed in your system 
  also it has a procfile for heroku deployment.
+
+ S
