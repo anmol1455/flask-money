@@ -24,7 +24,7 @@ only those emails will work otherwise you will not be able to perform operations
  
  # Tests
  * home page with money requests table and money sent table  which can be only by users of web app to another user.
- A user can request and send money from another user.
+ A user can request and send money from/to another user.
  <img src='https://github.com/anmol1455/flask-money/blob/main/testcase%20images/Screenshot%20(2).png'>
  
  * All transaction page with sent money and recieved money data by the user
