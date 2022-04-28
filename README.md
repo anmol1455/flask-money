@@ -41,6 +41,7 @@ and then run python app.py
  <img src='https://github.com/anmol1455/flask-money/blob/main/testcase%20images/Screenshot%20(7).png'>
  
  ## All the data shown in table is being fetched from tables of Mysql database.
- ** use emails those are registered on the app i.e. the mail used for signup should be used for transactions.
+ * use emails those are registered on the app i.e. the mail used for signup should be used for transactions.
     only those emails will work otherwise you will not be able to perform operations.
- ** one mail address can be used only once for signUp
+    
+ * one mail address can be used only once for signUp
