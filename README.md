@@ -41,4 +41,5 @@ only those emails will work otherwise you will not be able to perform operations
  
   * SignUp page
  <img src='https://github.com/anmol1455/flask-money/blob/main/testcase%20images/Screenshot%20(7).png'>
+ 
  ## All the data shown in table is being fetched from tables of Mysql database.
