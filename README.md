@@ -21,3 +21,17 @@ use emails those are registered on the app i.e. the mail used for signup should 
 only those emails will work otherwise you will not be able to perform operations.
 * assuming you've python installed in your system 
  also it has a procfile for heroku deployment.
+ 
+ # Tests
+ * home page with money requests table and money sent table  which can be only by users of web app to another user.
+ A user can request and send money from another user.
+ <img src='https://github.com/anmol1455/flask-money/blob/main/testcase%20images/Screenshot%20(2).png'>
+ 
+ * All transaction page with sent money and recieved money data by the user
+ <img src='https://github.com/anmol1455/flask-money/blob/main/testcase%20images/Screenshot%20(3).png'>
+ 
+ * Simple form for current user to request money from another user
+ <img src='https://github.com/anmol1455/flask-money/blob/main/testcase%20images/Screenshot%20(4).png'>
+ 
+ * Simple form for current user for sending money to another user
+ <img src='https://github.com/anmol1455/flask-money/blob/main/testcase%20images/Screenshot%20(5).png'>
